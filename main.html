@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <title>Bead</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" >
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="javas.js"></script>
+
+    <style>
+        body {
+            animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+
+</head>
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="main.html">Főoldal</a>
+        <a href="tovabbi.html">Képregény</a>
+        <a href="rendeles.html">Rendelés</a>
+        <a href="kepnezegeto.html">Galléria</a>
+        <a href="https://www.kepregenydepo.hu/termek/blacklore-a-liderc-kaloz-legendaja-1-elorendeles/">Képregény Depo</a>
+    </div>
+
+    <span onclick="openNav()" id="menuicon"><img src="menuicon.png" class="menu" style="width: 35px; margin-top: 10px; margin-left: 10px;"/></span>
+
+    <div id="main">
+        <div class="t">…Az örökkévalóság sötét hálójában fonódó mágikus történetek kincsestára, <br/>
+            amelyet a bátor kalandorok a BlackLore néven tisztelnek, most a világ szívéhez vezető út jelzőfényei között ragyog. <br/>
+            Eme legendás fekete pergamenek hosszú évezredek óta olyan varázslatos erővel átszőtt regéket rejtenek, <br/>
+            melyeknek sorai az igazak köré fonják a sors misztikus szálait, megvilágítva a sötét éjszakát és irányt mutatva azoknak, <br/>
+            akik vakon bolyonganak az elveszett érák ködében…</div>
+    </div>
+     
+</body>
+</html>

@@ -1,0 +1,118 @@
+<html lang="en">
+<head>
+    <title>Bead</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" >
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="javas.js"></script>
+
+</head>
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="main.html">Főoldal</a>
+        <a href="tovabbi.html">Képregény</a>
+        <a href="rendeles.html">Rendelés</a>
+        <a href="kepnezegeto.html">Galléria</a>
+        <a href="https://www.kepregenydepo.hu/termek/blacklore-a-liderc-kaloz-legendaja-1-elorendeles/">Képregény Depo</a>
+    </div>
+
+    <span onclick="openNav()" id="menuicon"><img src="menuicon.png" class="menu" style="width: 35px; margin-top: 10px; margin-left: 10px;"/></span>
+
+    <div id="main">
+        <div class="row" style="margin-left: 5%; margin-right: 5%;">
+            <div class="column side" style="text-align:center">
+              <div><img src="cover.jpg" style="width: 100%;"/></div>
+            </div>
+            <div class="column side" style="text-align:center">
+                <h2 style="text-align: left;">Rendelés</h2>
+                    <form>
+                            <table class="personTable" style="margin-left: 20%;">
+                                <tr>
+                                    <td>Vezetéknév:</td>
+                                    <td>
+                                        <input type="text" id="lastName" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Keresztnév:</td>
+                                    <td>
+                                        <input type="text" id="firstName" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Email:</td>
+                                    <td>
+                                        <input type="text" id="email" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Születési év:</td>
+                                    <td>
+                                        <input type="date" id="bday" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Város:</td>
+                                    <td>
+                                        <input type="text" id="city" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Irányítószám:</td>
+                                    <td>
+                                        <input type="number" id="postal" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Cím:</td>
+                                    <td>
+                                        <input type="text" id="address" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Ország:</td>
+                                    <td>
+                                        <select name="orszag" id="countries">
+                                            <option value="hungary">Magyarország</option>
+                                            <option value="austria">Ausztria</option>
+                                            <option value="germany">Németország</option>
+                                            <option value="poland">Lengyelország</option>
+                                            <option value="slovakia">Szlovákia</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <span style="text-align: center"> <input class="button" type="button" id="rendeles" value="Rendelés" /></span>
+                                    </td>
+                                </tr>
+                            </table>
+                    </form>
+                    <div style="text-align: left;">További információért a szállítással kapcsaolatban látogasson el a <a href="https://foxpost.hu" >Foxpost</a> oldalára!</div>
+                
+                <div style="text-align: left; margin-top: 10px;">
+                    <ul>
+                        <li>Cikkszám: HK0007</li>
+                        <li>Kategória: HK Comics kiadványok</li>
+                        <li>Címkék: A lidérc kalóz legendája, BlackLore, dark fantasy, fantasy, HK Comics, Legend of the Lich Pirate, Manga, Yumeno Masaru</li>
+                        <li>HK Comics MANGA</li>
+                    </ul>
+
+                    <h2 style="text-align: left;">Leírás</h2>
+
+                    <ol type="1">
+                        <li>HK Comics kiadó</li>
+                        <li>2023</li>
+                        <li>szín: színes</li>
+                        <li>formátum: Puha borítós</li>
+                        <li>méret: füzet</li>
+                        <li>oldalszám: 24</li>
+                    </ol>
+                </div>
+                
+    </div>
+     
+</body>
+</html>
